@@ -6,9 +6,9 @@ getgenv().ExploitSpecific = ":>"
 
 -- API CALLS
 
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/kobeahihi1/Rosemoc/main/library.lua"))()
-getgenv().api = loadstring(game:HttpGet("https://raw.githubusercontent.com/kobeahihi1/Rosemoc/main/api.lua"))()
-local bssapi = loadstring(game:HttpGet("https://raw.githubusercontent.com/kobeahihi1/Rosemoc/main/bssapi.lua"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/cocaicc1/Rosecock/main/library.lua"))()
+getgenv().api = loadstring(game:HttpGet("https://raw.githubusercontent.com/cocaicc1=1/Rosecock/main/api.lua"))()
+local bssapi = loadstring(game:HttpGet("https://raw.githubusercontent.com/cocaicc1/Rosecock/main/bssapi.lua"))()
 local httpreq = (syn and syn.request) or http_request or (http and http.request) or request
 
 if not isfolder("kocmoc") then makefolder("kocmoc") end
@@ -592,7 +592,7 @@ local function disconnected(hook, discordid, reason)
                 },
             },
             ["footer"] = {
-                ["text"] = os.date("%x").." • "..os.date("%I")..":"..os.date("%M")..":"..os.date("%S").." "..os.date("%p")
+                ["text"] = os.date("%x").." Â• "..os.date("%I")..":"..os.date("%M")..":"..os.date("%S").." "..os.date("%p")
             }
         }}
     }
@@ -644,7 +644,7 @@ local function hourly(ping, hook, discordid)
                 },
             },
             ["footer"] = {
-                ["text"] = os.date("%x").." • "..os.date("%I")..":"..os.date("%M")..":"..os.date("%S").." "..os.date("%p")
+                ["text"] = os.date("%x").." Â• "..os.date("%I")..":"..os.date("%M")..":"..os.date("%S").." "..os.date("%p")
             }
         }}
     }

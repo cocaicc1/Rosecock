@@ -7,7 +7,7 @@ getgenv().ExploitSpecific = ":>"
 -- API CALLS
 
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/cocaicc1/Rosecock/main/library.lua"))()
-getgenv().api = loadstring(game:HttpGet("https://raw.githubusercontent.com/cocaicc1=1/Rosecock/main/api.lua"))()
+getgenv().api = loadstring(game:HttpGet("https://raw.githubusercontent.com/cocaicc1/Rosecock/main/api.lua"))()
 local bssapi = loadstring(game:HttpGet("https://raw.githubusercontent.com/cocaicc1/Rosecock/main/bssapi.lua"))()
 local httpreq = (syn and syn.request) or http_request or (http and http.request) or request
 
